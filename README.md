@@ -44,7 +44,13 @@ Deploy this chat app without functions. You will find the Hosting and Project Co
 firebase deploy --except functions
 ```
 
-# Testing this project 
+# Deploy functions for this Chat App
+
+```
+firebase deploy --only functions
+```
+
+# Testing this project
 
 You now can got to the Hosting URL and start using it.
 
